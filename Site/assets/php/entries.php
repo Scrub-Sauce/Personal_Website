@@ -1,5 +1,6 @@
-<script src="../../../hw15/assets/js/jquery-3.5.1.js"></script>
+<script src="../js/jquery-3.5.1.js"></script>
 <?php
+	echo '<link href="../css/bootstrap.css" rel="stylesheet">';
 	echo '<div class="container" id="container">';
 	echo '<div class="panel panel-primary">';
 	echo '<div class="panel-heading">Contact Form Entries</div>';
@@ -20,7 +21,7 @@
 		function refresh_div(){
 			$.ajax({
 				type: 'get',
-				url: 'https://ec2-44-201-196-59.compute-1.amazonaws.com/hw15/assets/php/query_entries.php',
+				url: 'https://kyleandersontx.com/assets/php/query_entries.php',
 				success: function(data){
 					$('#content').html(data);
 				}

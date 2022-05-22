@@ -14,7 +14,7 @@ echo '<div class="container" id="container">';
 	echo '</div>';
 	echo '<div class="row">';
 		echo '<div class="col-md-12">';
-			echo '<h2 align="center">Relavent Courseword</h2>';
+			echo '<h2 align="center">Relavent Coursework</h2>';
 			echo '<table border="1" align="center">';
 				echo '<thead><tr><th>Course Number</th><th>Couse Name</th><th>Description</th><th>Relavent Subjects</th></tr></thead>';
 				echo '<tr><td>CS 2123</td><td>Data Structures</td><td>Learn foundational data structures, how they work, and what situations they are optimal for.</td><td align="center">C</td></tr>';

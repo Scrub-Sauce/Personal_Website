@@ -4,6 +4,7 @@ echo '<!doctype html>';
 echo '<!--ec2-44-201-196-59.compute-1.amazonaws.com/index.php-->';
 echo '<html>';
 	echo '<head>';
+		echo '<link rel="stylesheet" href="assets/css/index.css">';
 		echo '<meta charset="utf-8">';
 switch($_GET['page']){
 	case "school":
@@ -27,7 +28,7 @@ switch($_GET['page']){
 	echo '</head>';
 	echo '<body>';
 		echo '<div id="page-inner">';
-			include("assets/php/navigation.php");
+			//	include("assets/php/navigation.php");
 if(isset($_GET['page']) && $_GET['page']!=""){
 	$page=$_GET['page'];
 	switch($page){
